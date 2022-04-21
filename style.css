@@ -1,0 +1,143 @@
+body {
+    background-image: url('https://jarilo.co.uk/ebay2019/canineconcepts/listing/images/background1.jpg');
+    background-size: cover;
+    font-family: 'Russo One', sans-serif!important;
+}
+
+.img-logo {
+    padding: 50px;
+}
+
+nav {
+    background: #5FB828;
+}
+
+.nav-item a {
+    font-size: 20px;
+    color: #fff!important;
+    padding: 20px;
+}
+
+.nav-item a:hover {
+    background: orange;
+}
+
+main {
+    padding: 5px;
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+.about {
+    margin-top: 5px;
+    padding: 20px;
+}
+
+.text-danger {
+    font-size: 25px;
+}
+
+.about-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.about ul {
+    list-style: none;
+}
+
+.about ul>li {
+    padding-left: 20px;
+    position: relative;
+    margin: 10px;
+}
+
+.about ul>li:before {
+    content: '✔';
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #000;
+}
+
+.col img {
+    width: 424px;
+}
+
+.container_slider_css {
+    margin: 50px auto;
+    width: 800px;
+    height: 800px;
+    overflow: hidden;
+    position: relative
+}
+
+.photo_slider_css {
+    position: absolute;
+    animation: round 27s infinite;
+    opacity: 0;
+    width: 100%
+}
+
+@keyframes round {
+    25% {
+        opacity: 1
+    }
+    30% {
+        opacity: 0
+    }
+}
+
+img:nth-child(1) {
+    animation-delay: 27s
+}
+
+img:nth-child(2) {
+    animation-delay: 24s
+}
+
+img:nth-child(3) {
+    animation-delay: 21s
+}
+
+img:nth-child(4) {
+    animation-delay: 18s
+}
+
+img:nth-child(5) {
+    animation-delay: 15s
+}
+
+img:nth-child(6) {
+    animation-delay: 12s
+}
+
+img:nth-child(7) {
+    animation-delay: 9s
+}
+
+img:nth-child(8) {
+    animation-delay: 6s
+}
+
+img:nth-child(9) {
+    animation-delay: 3s
+}
+
+img:nth-child(10) {
+    animation-delay: 0s
+}
+
+@media(min-width:0px) and (max-width:320px) {
+    .container_slider_css {
+        width: 80%;
+        height: 190px
+    }
+}
+
+@media(min-width:321px) and (max-width:480px) {
+    .container_slider_css {
+        width: 80%;
+        height: 190px
+    }
+}
